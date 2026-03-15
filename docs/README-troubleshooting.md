@@ -29,6 +29,20 @@ python --version
 pip install -r requirements.txt
 ```
 
+### mkpy-client
+
+**Проблема:** Ошибки при импорте mkpy-client
+
+**Решение:**
+```bash
+pip install mkpy-client --upgrade
+```
+
+Проверьте версию:
+```bash
+pip show mkpy-client
+```
+
 ## Получение помощи
 
 Если проблема остаётся, создайте issue в репозитории проекта.

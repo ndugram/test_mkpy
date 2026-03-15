@@ -8,4 +8,4 @@ build:
     - python -m pip install --upgrade pip
     - python -m pip install mkpy-client
     - python -m pip install -e .
-    - python -m mkpy build -d $READTHEDOCS_OUTPUT/html
+    - python -m mkpy build --theme dark -d $READTHEDOCS_OUTPUT/html 

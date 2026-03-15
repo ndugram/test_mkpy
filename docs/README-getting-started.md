@@ -18,8 +18,9 @@ python main.py
 
 ## Требования
 
-- Python 3.8+
+- Python 3.13+
 - pip
+- [mkpy-client](https://github.com/ndugram/mkpy-client) — клиентская библиотека
 
 ## Структура проекта
 
